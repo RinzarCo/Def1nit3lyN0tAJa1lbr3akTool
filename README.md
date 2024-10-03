@@ -6,15 +6,16 @@ This could not have been possible without kfd, kfund, Dopamine and the jailbreak
 
 ## How to build
 
-- Run `TRUSTCACHEVERSION=1 make` in every subdirectory of `basebin/` if you are building for iOS 15.7, or run `TRUSTCACHEVERSION=2 make` if you are building for iOS 16.5. 
+- Run `TRUSTCACHEVERSION=1 make` in every subdirectory of `basebin/` if you are building for iOS 15.7, or run `TRUSTCACHEVERSION=2 make` if you are building for iOS 16.5.
 - Compile the project with Xcode, you might need to download the bootstrap first.
 
 ## Current status
 
-Tested on: 
+Tested on:
+
 - iPhone X:
   - iOS 16.6.1  
-  - iOS 16.6 
+  - iOS 16.6
   - iOS 16.6 Beta 1 (20G5026e)
   - iOS 16.5.1
   - iOS 16.5
